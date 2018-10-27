@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy API</title>
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Gif Search</h1>
+  </div>
+
+  <div class="container">
+    <form id="hero-form" onsubmit="return checkforblank()"> 
+      <input type="text" id="hero-input" placeholder="Search Giphy..."><br>
+
+     <!-- Button triggers new animal to be added -->
+       <input type="submit" value="Make new buttons!">
+   </form>
+   </div>
+
+    <!-- animals will get dumped here -->
+    <div id="superHero-view"></div> <!--id="animals-view"-->
+
+    <!-- images will get dumped here -->
+    <div class="gif-view"></div>
+      
+           
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/logic.js"></script>
+
+
+</body>
+
+</html>
