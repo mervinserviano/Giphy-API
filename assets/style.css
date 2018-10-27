@@ -7,38 +7,3 @@ body {
     margin: 0;
     float: left;
   }
-
-  .gif-view{
-    clear:left;
-  }
-  
-  #superhero-view {
-    float: right;
-    /* border: 2px black solid; */
-  }
-
-  .hero {
-    margin: 5px;
-    font-size: 24px;
-  }
-
-  .container {
-    padding: 10px;
-    float: left;
-    height: 50px;
-    width: 190px;
-  }
-
-  .content {
-    margin: 15px;
-    float: left;
-    height: 250px;
-    display: inline-block;
-  }
-
-  .image {
-    padding: 10px;
-    width: 190px;
-  }
-  
-  .content, p {}
