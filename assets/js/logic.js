@@ -1,7 +1,7 @@
-var superhero = ["spiderman", "ironman", "antman", "blackpanther"];
+var superHero = ["spiderman", "ironman", "antman", "blackpanther"];
 // console.log(uniqueAnimals);
 
-
+console.log(superHero)
 
 // Function for displaying animal data
 function renderButtons() {
