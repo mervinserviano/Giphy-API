@@ -43,11 +43,11 @@ font-family: 'Cabin Sketch', cursive;
   
   button:hover,
   input[type="submit"]:hover {
-    background: #334e4d;
+    background: #7d069b;
   }
   
   button.active {
-    background: #334e4d;
+    background: red;
   }
 
   img {
